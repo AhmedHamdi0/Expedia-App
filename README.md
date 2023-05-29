@@ -1,5 +1,7 @@
 # Expedia App
-**Expedia Travel Itinerary Management System is a comprehensive application that allows users to search and book flights and hotels for their travel needs. The system provides a user-friendly interface for customers to interact with, backed by a robust backend that handles flight and hotel search, reservation, and payment processing.**
+**Expedia Travel Itinerary Management System is a comprehensive application that allows users to search and book flights and hotels for their travel needs.**
+
+**This project is designed to enhance OOP design skills by creating a customer-focused booking system for flights, hotels, and other reservations. The system uses APIs from airlines and hotels to provide customers with available options, and integrates with payment APIs for seamless transactions.**
 
 ## Features
 
@@ -18,6 +20,17 @@
 - **Backend**: Handles the core functionality of flight and hotel search, reservation, payment processing, and integration with external APIs.
 - **Frontend**: Provides a user-friendly interface for customers to interact with the system and perform flight and hotel searches, reservations, and payment.
 - **APIs**: Integrates with external services such as flight and hotel booking APIs, payment gateways (e.g., PayPal, Stripe), and customer information management systems (e.g., Marriott).
+
+## APIs:
+**Flights APIs:**
+- Companies such as AirCanada and TurkishAirlines provide online query APIs to get current available flights
+- Customers can choose from available options and either reserve or cancel their selection.
+
+**Hotel APIs:**
+- Hotels such as Hilton and Marriott provide similar APIs for customers to browse available accommodations.
+
+**Payments:**
+- expedia uses payment APIs such as Square or Stripe to process transactions seamlessly.
 
 ## Usage
 
